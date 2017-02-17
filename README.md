@@ -7,5 +7,6 @@ Add IdentityServer packages:
 "IdentityServer4.AspNetIdentity",
 
 
-PM> Add-Migration InitialIdentityServerMigration -c PersistedGrantDbContext -o Data/Migrations/Configuration
-PM> Add-Migration InitialIdentityServerMigration -c ConfigurationDbContext -o Data/Migrations/PersistedGrants
+PM> Add-Migration InitialIdentityServerMigration -c PersistedGrantDbContext -o Data/Migrations/PersistedGrants
+
+PM> Add-Migration InitialIdentityServerMigration -c ConfigurationDbContext -o Data/Migrations/Configuration
