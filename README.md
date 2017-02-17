@@ -5,3 +5,7 @@ Create ASP.NET Core Web Application(.NET CORE 1.1) with Individual User Accounts
 
 Add IdentityServer packages:
 "IdentityServer4.AspNetIdentity",
+
+
+PM> Add-Migration InitialIdentityServerMigration -c PersistedGrantDbContext -o Data/Migrations/Configuration
+PM> Add-Migration InitialIdentityServerMigration -c ConfigurationDbContext -o Data/Migrations/PersistedGrants
